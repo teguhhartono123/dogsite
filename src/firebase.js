@@ -4,12 +4,12 @@ import { getFirestore } from 'firebase/firestore';
 import { getAuth } from 'firebase/auth';
 
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyD8Nat_mSGun31XsmX6DV9KGRIbUBOdzMw",
+  authDomain: "dogsite-1cdef.firebaseapp.com",
+  projectId: "dogsite-1cdef",
+  storageBucket: "dogsite-1cdef.firebasestorage.app",
+  messagingSenderId: "276698261125",
+  appId: "1:276698261125:web:4dad449792fb067f5aebec"
 };
 
 const app = initializeApp(firebaseConfig);
